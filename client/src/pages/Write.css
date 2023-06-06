@@ -1,0 +1,87 @@
+.writeform{
+    color: white;
+    background-color: rgb(31, 30, 29);
+    height:74vh;
+    width:30vw;
+    padding-top: 5vh;
+    position: absolute;
+    margin-left:35%;
+    border-radius: 25px;
+}
+
+.im{
+    margin-left: 11.5vw;
+    cursor: pointer;
+}
+
+.choosecat{
+    width: 10.5vw;
+    padding: 0.5%;
+}
+
+.publish{
+  cursor:pointer; 
+  background-color:rgb(239, 178, 11);  
+  border:none;
+  height:3.5vh; 
+  width:7vw;
+  border-radius:8px;
+}
+
+.body{
+    width:18vw;
+    height:20vh
+}
+
+.profile{
+    background-color: black;
+    color:white;
+    height:43vh;
+    width:30vw;
+    padding-top: 3%;
+    border-radius: 25px;
+}
+
+.profile input{
+    padding: 1%;
+}
+
+.profile button{
+    background-color: rgb(236, 212, 182);
+    border: none;
+    padding: 1%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .writeform {
+      height: auto;
+      width: 80%;
+      margin-left: 10%;
+      padding-bottom: 3vh;
+    }
+
+    .publish{
+      width: auto;
+    }
+  
+    .im {
+      margin-left: 35%;
+    }
+  
+    .choosecat {
+      width: 30%;
+    }
+  
+    .body {
+      width: 70%;
+    }
+  
+    .profile {
+      margin-right: 12vw;
+      width: 80%;
+      margin-left: 10%;
+    }
+}
+  

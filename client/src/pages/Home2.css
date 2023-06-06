@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.wlcm{
+    padding-top: 8%;
+    font-family: 'Pangolin', cursive;
+    font-size: 40px;
+    margin-bottom: 3vh;
+}
+
+.blogs{
+    background-color: rgb(242, 239, 234);
+    width: 50%;
+    height:45vh;
+    padding: 5vh;
+    margin-bottom: 5vh;
+    border: 1px solid rgb(193, 186, 186);
+}
+
+.blogs h2{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 3vh;
+}
+
+.blogs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    flex:2;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.blogs p{
+    margin-bottom: 2vh;
+}
+
+.subtitle2{
+    color:#454646;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+
+.time2{
+    color:#5e6161;
+    font-size: 15px;
+}
+
+.time2 span{
+    background-color: #dfdcdc;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px;
+}
+
+
+.read{
+    border: none;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    padding:4%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.erd{
+    display: inline;
+    margin-top: 4.5vh;
+    margin-left: -65%;
+}
+
+.deletebtn{
+    background-color: black;
+    border:none;
+    color:white;
+    margin-right: 1vw;
+    height: 5vh;
+    width:10vw;
+    cursor: pointer;
+}
+
+.readbtn{
+    background-color: black;
+    color:white;
+    height: 5vh;
+    width:10vw;
+    border: none;
+    cursor: pointer;
+}
+
+.editbtnd{
+    margin-right: 1vw;
+    cursor: pointer;
+}
+
+.editbtn{
+    height: 5vh;
+    width:10vw;
+    background-color: black;
+    color:white;
+    border:none;
+    cursor: pointer;
+}
+
+.editform{
+    color: white;
+    background-color: rgb(31, 30, 29);
+    height:65vh;
+    width:30vw;
+    padding-top: 5vh;
+    position: absolute;
+    /* margin-top: 8.5%; */
+    margin-left:35%;
+    border-radius: 25px;
+}
+
+.sb{
+    font-family: 'Satisfy', cursive;
+    font-size: 19px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 1vh;
+}
+
+.bbody{
+    font-size: 18px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 1vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.lyt{
+    background-color: rgb(242, 239, 234);
+    border: 1px solid rgb(193, 186, 186);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.search button{
+    width:5vw;
+    padding: 0.5%;
+}
+
+.search{
+    margin-bottom: 5vh;
+}
+
+.searchf{
+    width:20vw;
+    padding: 0.5%;
+}
+
+@media (max-width: 768px) {
+    .wlcm{
+        padding-top: 18%;
+    }
+
+    .search button{
+        width:10vw;
+    }
+
+    .searchf{
+        width:37vw;
+    }
+
+    .blogs {
+      width: 100%;
+      height: 51vh;
+    }
+  
+    .data {
+      margin-left: 0;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .read {
+      margin-left: 0;
+    }
+  
+    .erd {
+      margin-left: 2%;
+      margin-top: 1%;
+    }
+  
+    .editform {
+      margin-left: 5%;
+    }
+
+}
+  

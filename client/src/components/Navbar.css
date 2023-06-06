@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+:root {
+	--mainColor: transparent;
+	--mainColorLight: #5767aa;
+	--secondaryColor: teal;
+	--textColor: black;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 75px;
+	width: 100%;
+	padding: 0 0.5rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+    border-bottom: 1px solid black;
+	position: fixed;
+}
+
+nav Link {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+    /* margin-left: 180px; */
+}
+
+nav Link:hover {
+	color: var(--secondaryColor);
+    text-decoration: underline black;
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		transition: 1s;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+		background-color: aliceblue;
+		width: 50%;
+		margin-left: 50%;
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav Link {
+		font-size: 1.5rem;
+	}
+    .links{
+        margin-left: 0px !important;
+        flex-direction: column !important;
+        justify-content: space-between;
+    }
+}
+
+.links{
+    margin-left: 540px;
+}
+
+.n{
+	background-color: rgb(239, 178, 11);
+}
+
+.lnk{
+	color:black;
+	font-size: 0.93rem;
+	font-weight: inherit;
+	text-decoration: none;
+}
+
+.gs{
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 2%;
+	height:6.5vh;
+	width:8.5vw;
+	border-radius: 4vh;
+	cursor: pointer;
+}
